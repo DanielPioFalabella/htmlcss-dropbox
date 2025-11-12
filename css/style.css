@@ -85,3 +85,55 @@ header {
     max-width: 120%;
     padding-top: 30px;
 }
+
+/* pagina dei prezzi */
+
+.prices-page {
+    width: 100%;
+    padding: 40px 25%;
+}
+
+.prices-page h2 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.check {
+    padding-bottom: 40px;
+}
+
+.container-prices-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.prices-list-singol {
+    width: calc(100% / 3 - (60px /3));
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.prices-list-title {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.prices-list-text {
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.prices-list-singol p {
+    padding-bottom: 16px;
+}
+
+.prices-list-singol h3 {
+    font-size: 20px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,14 @@
     <!-- font della pagina -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- font awsome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -43,8 +48,9 @@
             <div class="section-jumbotron">
                 <div class="jumbotron-text">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
-                    Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso 
-                    di lavoro esistente.</p>
+                        Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato
+                        per ottimizzare il flusso
+                        di lavoro esistente.</p>
                     <a class="btn-blu">Inizia la tua prova gratuita</a>
                     <p>Annulla in qualsiasi momento</p>
                     <a><i class="fa-solid fa-arrow-down"></i></a>
@@ -56,8 +62,90 @@
         </section>
 
         <!-- trova il piano business che fa per te -->
-        <section>
+        <section class="prices-page">
+            <h2>Trova il piano business che fa per te</h2>
+            <!-- ************* incompleto ***************** -->
+            <label class="check">
+                <input type="checkbox">
+                <span class="box"></span>Fatturazione mensile
+            </label>
+            <label class="check">
+                <input type="checkbox">
+                <span class="box"></span>Fatturazione annuale
+            </label>
 
+            <!-- 3 listini di prezzo -->
+            <div class="container-prices-list">
+                <div class="prices-list-singol">
+                    <div class="prices-list-title">
+                        <div><i class="fa-solid fa-user"></i>Singolo</div>
+                    </div>
+                    <div class="prices-list-text">
+                        <h3>Professional</h3>
+                        <p>&euro; 12.00</p>
+                        <p>/mese</p><br>
+                        <p>1 utente</p>
+                        <p>5TB di spazio di archiviazione sicuro</p>
+                        <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                        <a class="btn-blu">Prova gratis per 30 giorni</a>
+                        <p>oppure acquista ora</p>
+                        <hr>
+                        <p>Punti salienti del piano</p>
+                        <ul>
+                            <li>Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li>Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="prices-list-singol">
+                    <div class="prices-list-title">
+                        <div><i class="fa-solid fa-people-group"></i>Team</div>
+                    </div>
+                    <div class="prices-list-text">
+                        <h3>Advanced</h3>
+                        <p>&euro; 18.00</p>
+                        <p>/utente/mese</p><br>
+                        <p>3 o più utenti</p>
+                        <p>Tutto lo spazio di cui ha bisogno il tuo team</p>
+                        <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>
+                        <a class="btn-blu">Prova gratis per 30 giorni</a>
+                        <p>oppure acquista ora</p>
+                        <hr>
+                        <p>Punti salienti del piano</p>
+                        <ul>
+                            <li>Nessun limite di spazio per i file</li>
+                            <li>Cartelle offline su dispositivi mobili</li>
+                            <li>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li>Possibilità di inserire nuovi membri del team</li>
+                            <li>Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="prices-list-singol">
+                    <div class="prices-list-title">
+                        <div><i class="fa-solid fa-hotel"></i>Azienda</div>
+                    </div>
+                    <div class="prices-list-text">
+                        <h3>Enterprise</h3>
+                        <p>Contattaci</p>
+                        <p>-</p><br>
+                        <p>10 o più utenti</p>
+                        <p>Soluzioni personalizzabili per la tua azienda</p>
+                        <p>Assistenza personalizzat per aiutare gli amministratori in una gestione su larga scala</p>
+                        <a class="btn-blu">Contattaci</a>
+                        <p>oppure acquista ora</p>
+                        <hr>
+                        <p>Punti salienti del piano</p>
+                        <ul>
+                            <li>Cartelle offline su dispositivi mibili</li>
+                            <li>Servizio assistenza 24/h</li>
+                            <li>possibilità di personalizzazione totale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- entra in contatto con partner dropbox -->
@@ -90,4 +178,5 @@
         <div class="linguaggio"></div>
     </footer>
 </body>
+
 </html>
