@@ -17,6 +17,14 @@
     font-weight: 300;
 }
 
+.btn-white {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    font-weight: 300;
+    border: 1px solid rgb(55, 55, 55);
+}
+
 .fa-arrow-down {
     font-size: 40px;
     font-weight: 900;
@@ -107,6 +115,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-bottom: 40px;
 }
 
 .prices-list-singol {
@@ -114,18 +123,18 @@ header {
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    border: 1px solid grey;
+    border: 1px solid rgb(200, 200, 200);
 }
 
 .prices-list-title {
     text-align: center;
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid rgb(200, 200, 200);
 }
 
 .prices-list-text {
-    padding: 10px;
-    border: 1px solid grey;
+    padding: 10px 24px;
+    border: 1px solid rgb(200, 200, 200);
 }
 
 .prices-list-singol p {
@@ -136,4 +145,43 @@ header {
     font-size: 20px;
     padding-bottom: 16px;
     padding-top: 16px;
+}
+
+.last-list {
+    width: 100%;
+}
+
+.container-partnership {
+    display: flex;
+    width: 100%;
+    padding: 40px 25%;
+}
+
+.section-img img {
+    width: 100%;
+}
+
+.section-img {
+    flex-basis: 60%;
+}
+
+.section-text {
+    flex-basis: 40%;
+    padding: 50px 40px;
+}
+
+.section-text p {
+    padding: 20px 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* container info, la parte prima del footer */
+
+.container-info {
+    display: flex;
+}
+
+.container-info-img img {
+    width: 100%;
 }
