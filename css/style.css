@@ -40,6 +40,24 @@
     padding: 40px 25%;
 }
 
+.point-list-none {
+    list-style: none;
+}
+
+.point-list-none li {
+    position: relative;
+    padding-left: 30px;
+}
+
+/*.point-list-none li::before {
+    content: url(https://fontawesome.com/icons/earth-americas?f=classic&s=solid);
+    font-family: "Font Awesome 7 Free";
+    position: absolute;
+    left: 0;
+    top: 0;
+}*/
+
+
 
 
 /* normal */
