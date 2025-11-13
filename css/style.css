@@ -17,6 +17,10 @@
     font-weight: 300;
 }
 
+.padding-btn-price {
+    margin-top: 50px; /**************************/
+}
+
 .btn-white {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -106,15 +110,16 @@ header {
     padding-bottom: 40px;
 }
 
-.check {
-    padding-bottom: 40px;
+.box {
+    padding-left: 10px;
+    margin-right: 50px;
 }
 
 .container-prices-list {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding-bottom: 40px;
+    align-items: stretch;
+    padding: 40px 0;
 }
 
 .prices-list-singol {
@@ -128,12 +133,11 @@ header {
 .prices-list-title {
     text-align: center;
     padding: 10px;
-    border: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 .prices-list-text {
     padding: 10px 24px;
-    border: 1px solid rgb(200, 200, 200);
 }
 
 .prices-list-singol p {
