@@ -46,16 +46,19 @@
 
 .point-list-none li {
     position: relative;
-    padding-left: 30px;
+    padding-left: 22px;
+    padding-bottom: 16px;
 }
 
-/*.point-list-none li::before {
-    content: url(https://fontawesome.com/icons/earth-americas?f=classic&s=solid);
-    font-family: "Font Awesome 7 Free";
+.relative {
+    position: relative;
+}
+
+.absolute {
     position: absolute;
+    top: 3px;
     left: 0;
-    top: 0;
-}*/
+}
 
 
 
