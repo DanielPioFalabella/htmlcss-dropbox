@@ -5,9 +5,23 @@
     font-family: "Open Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Utility class */
 .section-header {
+    color: black;
     padding-right: 40px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.bordino-header:hover {
+    border-bottom: 2px solid rgb(181, 181, 181);
 }
 
 .btn-blu {
@@ -17,8 +31,14 @@
     font-weight: 300;
 }
 
-.padding-btn-price {
-    margin-top: 50px; /**************************/
+.margin-btn {
+    margin-top: 20px;
+}
+
+.margin-p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(181, 181, 181);
 }
 
 .btn-white {
@@ -33,6 +53,9 @@
     font-size: 40px;
     font-weight: 900;
     padding-top: 40px;
+    text-decoration: none;
+    color:black;
+    transition: transform 0.3s;
 }
 
 .widht-page {
@@ -42,6 +65,7 @@
 
 .point-list-none {
     list-style: none;
+    padding-bottom: 30px;
 }
 
 .point-list-none li {
@@ -58,6 +82,14 @@
     position: absolute;
     top: 3px;
     left: 0;
+}
+
+.blu {
+    color: blue;
+}
+
+#funzioni, #piani-e-prezzi, #contatta-ufficio-vendite, #Dropbox {
+    scroll-margin-top: 60px;
 }
 
 
@@ -158,7 +190,19 @@ header {
 }
 
 .prices-list-text {
+    padding: 10px 22px;
+}
+
+.prices-list-text2 {
     padding: 10px 24px;
+    display: flex;
+}
+
+.section-prices-list-text2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 40%;
 }
 
 .prices-list-singol p {
@@ -173,10 +217,12 @@ header {
 
 .last-list {
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .container-partnership {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .section-img img {
@@ -237,7 +283,7 @@ header {
     color: white;
     width: 100%;
     padding: 80px 15%;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .container-footer {
